@@ -7,21 +7,21 @@ hexo init Blog
 cd Blog 
 npm install
 npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync
-git clone https://github.com/pinggod/hexo-theme-apollo.git themes/apollo
+git clone https://github.com/sodatea/hexo-theme-sleepless.git themes/sleepless
 ```
 
 ## 启用
 
-修改 `_config.yml` 的 `theme` 配置项为 `apollo`:
+修改 `_config.yml` 的 `theme` 配置项为 `sleepless`:
 
 ```yaml
-theme: apollo
+theme: sleepless
 ```
 
 ## 更新
 
 ``` bash
-cd themes/apollo 
+cd themes/sleepless 
 git pull
 ```
 
