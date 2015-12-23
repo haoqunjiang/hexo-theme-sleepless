@@ -1,27 +1,21 @@
-section.container {
-    margin: 2em 10px;
-}
-
 @media screen and (min-width: 700px) {
-    body {
-        width: 700px;
+    .container {
+        max-width: 600px;
         margin: 0 auto;
-    }
-    header {
-        padding: 20px 100px;
     }
 }
 
 @media screen and (max-width: 700px) {
-    body {
+    .container {
+        box-sizing: border-box;
         width: 100%;
+        padding: 2em 1em;
     }
     header {
         padding: 20px 40px;
         a.logo-link,
         ul.nav.nav-list {
-            float: none;
-            display: block;
+            display: inline-block;
             text-align: center;
         }
     }

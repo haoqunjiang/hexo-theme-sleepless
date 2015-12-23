@@ -1,22 +1,37 @@
 header {
-    height: 60px;
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+    padding: 25px 60px;
+    position: relative;
+    z-index: 2;
 
     .logo-link {
-        float: left;
-    }
-    
-    .nav {
-        float: right;
-        left: 80px;
+        display: inline-block;
+        font-size: 1.5em;
+        line-height: 40px;
+        color: #2c3e50;
+        font-weight: 500;
+
+        img {
+            display: inline-block;
+            height: 40px;
+            width: 40px;
+            vertical-align: middle;
+        }
     }
 
-    .logo-link img {
-        height: 60px;
+    .nav {
+        position: absolute;
+        right: 80px;
+        top: 0px;
     }
 
     .nav-list-item {
         display: inline-block;
-        padding: 19px  10px ;
+        padding: 0 10px;
+
+        height: 96px;
+        line-height: 96px;
         a {
             font-size: 16px;
             line-height: 1.4;
