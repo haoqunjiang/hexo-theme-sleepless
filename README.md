@@ -3,8 +3,8 @@
 ## 安装
 
 ``` bash
-hexo init Blog 
-cd Blog 
+hexo init Blog
+cd Blog
 npm install
 npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync
 git clone https://github.com/sodatea/hexo-theme-sleepless.git themes/sleepless
@@ -21,7 +21,7 @@ theme: sleepless
 ## 更新
 
 ``` bash
-cd themes/sleepless 
+cd themes/sleepless
 git pull
 ```
 
@@ -31,7 +31,7 @@ git pull
 
 ## 自定义块
 
-Markdown 生成的标签暂时比较简单，所以提供了一些 HTML 标签来标识特殊样式，详见 [custrom-blocks](https://github.com/pinggod/hexo-theme-apollo/blob/master/doc/custom-blocks.md)。
+Markdown 生成的标签暂时比较简单，所以提供了一些 HTML 标签来标识特殊样式，详见 [custrom-blocks](https://github.com/sodatea/hexo-theme-sleepless/blob/master/doc/custom-blocks.md)。
 
 ## License
 
