@@ -1,16 +1,17 @@
 @media screen and (min-width: 700px) {
-    .container {
+    .container, footer {
         max-width: 600px;
         margin: 0 auto;
     }
 }
 
 @media screen and (max-width: 700px) {
-    .container {
+    .container, footer {
         box-sizing: border-box;
         width: 100%;
         padding: 2em 1em;
     }
+
     header {
         padding: 20px 40px;
         a.logo-link,
@@ -25,6 +26,7 @@
             left: 15px;
         }
     }
+
     .ds-thread,
     #disqus_thread {
         margin: 2em 10px;
