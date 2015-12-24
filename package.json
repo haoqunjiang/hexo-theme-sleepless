@@ -16,7 +16,10 @@
     "apollo",
     "sleepless"
   ],
-  "author": ["Sean Sun", "Haoqun Jiang"],
+  "author": [
+    "Sean Sun",
+    "Haoqun Jiang"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pinggod/hexo-theme-sleepless/issues"

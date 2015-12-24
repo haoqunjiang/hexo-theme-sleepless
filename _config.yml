@@ -9,10 +9,13 @@ logo: /favicon.png
 
 # comment
 # e.g disqus: seansun
-disqus: 
-duoshuo: 
+disqus:
+duoshuo:
 
 # google-analytics:
 ga: UA-65933410-1
 # baidu-analytics:
 ba: //hm.baidu.com/hm.js?a36e15d9e2adec9a21fcdd9f686b1ed2
+
+node_sass:
+    outputStyle: compressed
