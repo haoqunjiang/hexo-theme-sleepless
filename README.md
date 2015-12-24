@@ -3,10 +3,11 @@
 ## 安装
 
 ``` bash
-hexo init Blog
-cd Blog
+hexo init blog
+cd blog
+grep -vE "hexo-renderer-ejs|hexo-renderer-stylus" package.json > tmpfile; mv tmpfile package.json
 npm install
-npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync
+npm install --save hexo-renderer-jade hexo-renderer-sass hexo-autoprefixer hexo-generator-feed hexo-generator-sitemap hexo-browsersync
 git clone https://github.com/sodatea/hexo-theme-sleepless.git themes/sleepless
 ```
 
@@ -31,7 +32,15 @@ git pull
 
 ## 自定义块
 
-Markdown 生成的标签暂时比较简单，所以提供了一些 HTML 标签来标识特殊样式，详见 [custrom-blocks](https://github.com/sodatea/hexo-theme-sleepless/blob/master/doc/custom-blocks.md)。
+Markdown 生成的标签暂时比较简单，所以提供了一些 HTML 标签来标识特殊样式。
+
+### 警告块
+
+用法：在 Markdown 文件中添加 `<p class="tip">Lorem ipsum dolor sit</p>`。
+
+效果如下：
+
+![danger](https://cloud.githubusercontent.com/assets/9530963/11359678/489a510c-92b9-11e5-9256-341cef6999b6.png)
 
 ## License
 
