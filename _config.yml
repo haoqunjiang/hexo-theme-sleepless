@@ -23,8 +23,11 @@ node_sass:
 # If you do not need to display math formulas on the blog, disabling MathJax will improve the load time a little bit
 disable_mathjax: false
 
-# Use [USTC's Google Fonts Mirror](https://lug.ustc.edu.cn/wiki/lug/services/googlefonts), for Chinese users
-use_ustc_mirror: true
+# For Chinese users, it's necessary to use a mirror for google fonts
+# There're two recommended mirrors which support SSL:
+# 1. USTC: //fonts.lug.ustc.edu.cn
+# 2. css.net: //cdn.css.net/fonts/
+google_fonts_mirror: //cdn.css.net/fonts/
 
 # It's recommended to use reverse proxy for duoshuo avatars, so as to support ssl.
 # In that way, you need to serve a modified version of the embed.js file.
