@@ -5,7 +5,7 @@
 ``` bash
 hexo init blog
 cd blog
-grep -vE "hexo-renderer-ejs|hexo-renderer-stylus" package.json > tmpfile; mv tmpfile package.json
+grep -vE "hexo-renderer-ejs|hexo-renderer-stylus" package.json > tmpfile; mv tmpfile package.json   # 这一步是删除没用到的默认 hexo 依赖，可以不执行
 npm install
 npm install --save hexo-renderer-jade hexo-renderer-sass hexo-autoprefixer hexo-generator-feed hexo-generator-sitemap hexo-browsersync
 git clone https://github.com/sodatea/hexo-theme-sleepless.git themes/sleepless
