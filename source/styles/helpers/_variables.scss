@@ -1,5 +1,30 @@
-$base-font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', 'Helvetica Neue', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'PingFang SC', 'Hiragino Sans GB', 'Lantinghei SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif;
-$monospace-font-family: Menlo, Consolas, 'Ubuntu Mono', 'Courier New', monospace;
-$headline-font-family: Kreon, $base-font-family;
+$font-family-base     : -apple-system, BlinkMacSystemFont, 'Open Sans', 'Helvetica Neue', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'PingFang SC', 'Hiragino Sans GB', 'Lantinghei SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif !default;
+$font-family-monospace: Menlo, Consolas, 'Ubuntu Mono', 'Courier New', monospace !default;
+$font-family-headline : Kreon, $font-family-base !default;
 
-$code-signs: ("html", "javascript", "js", "json", "bash", "css", "scss", "less", "python", "ruby", "java", "xml");
+
+$font-size-root       : 14px !default;
+$font-size-base       : 1rem !default;
+
+$line-height          : 1.8 !default;
+
+$body-bg              : #fff !default;
+$body-color           : #34495e !default;
+
+$gray-light           : #818a91 !default;
+$text-muted           : $gray-light !default;
+$abbr-border-color    : $gray-light !default;
+$dt-font-weight       : bold !default;
+
+$theme-primary        : #42b983 !default;
+
+$link-color           : $theme-primary !default;
+$link-decoration      : none !default;
+$link-hover-color     : darken($link-color, 15%) !default;
+$link-hover-decoration: underline !default;
+
+$table-bg             : transparent !default;
+$table-cell-padding   : 0.75rem !default;
+
+
+$code-signs           : ("html", "javascript", "js", "json", "bash", "css", "scss", "less", "python", "ruby", "java", "xml");

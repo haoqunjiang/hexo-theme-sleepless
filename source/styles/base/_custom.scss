@@ -1,21 +1,16 @@
-html {
-  box-sizing: border-box;
+code,
+kbd,
+pre,
+samp {
+	font-family: $font-family-monospace;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-:root {
-    font-size: 14px;
-}
-
-body {
-    color: #34495e;
-    background: #fff;
-    line-height: 1.8;
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: $font-family-headline;
 }
 
 hr {
@@ -46,11 +41,6 @@ table {
             padding: 5px;
         }
     }
-}
-
-a, a:active {
-    color: #2c3e50;
-    text-decoration: none;
 }
 
 
