@@ -1,5 +1,11 @@
 .home.post-list {
     margin: 2em 0;
+
+    .post-title-link {
+        color: $body-color;
+        text-decoration: none;
+    }
+
     .post-list-item {
         padding: 1em 0 2em;
         border-bottom: 1px solid #ddd;
@@ -14,7 +20,7 @@
             list-style: initial;
         }
     }
-    .read-more {     
+    .read-more {
         color: #42b983;
     }
 }
