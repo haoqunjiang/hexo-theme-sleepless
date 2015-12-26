@@ -1,0 +1,80 @@
+.post {
+    padding-top: 1em;
+}
+
+.post-block {
+    .post-title {
+        margin: 0.65em 0;
+        color: #2c3e50;
+        font-size: 1.5em;
+    }
+
+    .post-time {
+        color: #7f8c8d;
+        margin: 1.2em 0;
+    }
+}
+
+.post-content {
+    h2, h3, h4, h5, h6 {
+        position: relative;
+        font-size: 1.2em;
+
+        &:before {
+            content: "#";
+            color: #42b983;
+            position: absolute;
+            left: -1em;
+        }
+    }
+
+    h2, h3 {
+        margin: 2em 0 1em;
+    }
+
+    h4, h5, h6 {
+        margin: 1em 0;
+    }
+
+    a {
+        color: #42b983;
+    }
+    blockquote {
+        margin: 2em 0;
+        padding-left: 20px;
+        border-left: 4px solid #42b983;
+    }
+    img {
+        display: block;
+        max-width: 100%;
+        margin: 1em auto;
+    }
+    .tip {
+        position: relative;
+        margin: 2em 0;
+        padding: 12px 24px 12px 30px;
+        border-left: 4px solid #f66;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+        background-color: #f8f8f8;
+        br {
+            display: none;
+        }
+    }
+    .tip:before {
+        position: absolute;
+        top: 14px;
+        left: -12px;
+        content: "!";
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        color: #fff;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: bold;
+        text-align: center;
+        background-color: #f66;
+        font-family: 'Dosis', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+    }
+}

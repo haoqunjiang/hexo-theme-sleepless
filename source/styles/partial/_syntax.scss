@@ -1,0 +1,123 @@
+@include code-signs($code-signs);
+
+code,
+pre {
+    font-size: 0.85em;
+    background-color: #f8f8f8;
+}
+
+.highlight {
+    position: relative;
+    margin: 1em 0;
+    border-radius: 2px;
+    line-height: 1.5em;
+    background-color: #f8f8f8;
+    overflow-x: auto;
+    overflow-y: hidden;
+    table, tr, td {
+        width: auto;
+        border-collapse: collapse;
+        padding: 0;
+        margin: 0;
+    }
+
+    .gutter pre {
+        @extend %line-numbers;
+        text-align: right;
+        padding: 1.4rem;
+        margin: 0;
+    }
+
+    .code pre {
+        padding: 1.4rem 0;
+        margin: 0;
+    }
+}
+
+pre {
+    color: #525252;
+    .function .keyword,
+    .constant {
+       color: #0092db;
+    }
+    .keyword,
+    .attribute {
+        color: #e96900;
+    }
+    .number,
+    .literal {
+        color: #ae81ff;
+    }
+    .tag,
+    .tag .title,
+    .change,
+    .winutils,
+    .flow,
+    .lisp .title,
+    .clojure .built_in,
+    .nginx .title,
+    .tex .special {
+        color: #2973b7;
+    }
+    .class .title {
+        color: #fff;
+    }
+    .symbol,
+    .symbol .string,
+    .value,
+    .regexp {
+        color: #42b983;
+    }
+    .title {
+        color: #83b917;
+    }
+    .tag .value,
+    .string,
+    .subst,
+    .haskell .type,
+    .preprocessor,
+    .ruby .class .parent,
+    .built_in,
+    .sql .aggregate,
+    .django .template_tag,
+    .django .variable,
+    .smalltalk .class,
+    .javadoc,
+    .django .filter .argument,
+    .smalltalk .localvars,
+    .smalltalk .array,
+    .attr_selector,
+    .pseudo,
+    .addition,
+    .stream,
+    .envvar,
+    .apache .tag,
+    .apache .cbracket,
+    .tex .command,
+    .prompt {
+        color: #42b983;
+    }
+    .comment,
+    .java .annotation,
+    .python .decorator,
+    .template_comment,
+    .pi,
+    .doctype,
+    .shebang,
+    .apache .sqbracket,
+    .tex .formula {
+        color: #b3b3b3;
+    }
+    .deletion {
+        color: #ba4545;
+    }
+    .coffeescript .javascript,
+    .javascript .xml,
+    .tex .formula,
+    .xml .javascript,
+    .xml .vbscript,
+    .xml .css,
+    .xml .cdata {
+        opacity: 0.5;
+    }
+}

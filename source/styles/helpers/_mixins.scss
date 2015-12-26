@@ -1,0 +1,8 @@
+@mixin code-signs($keys) {
+    @each $key in $keys {
+        .highlight.#{$key} .code:after {
+            content: to-upper-case($key);
+            @extend %code-name;
+        }
+    }
+}
