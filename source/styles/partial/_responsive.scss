@@ -1,5 +1,5 @@
 @media screen and (min-width: 45rem) {
-    .container, footer {
+    nav, .container, footer {
         max-width: 45rem;
         margin: 0 auto;
     }
@@ -12,13 +12,18 @@
     }
 
     header {
-        padding: 20px 40px;
+        text-align: center;
+
         a.logo-link,
-        ul.nav.nav-list {
+        ul.nav.nav-list,
+        ul.nav.navl-list li {
+            float: none;
             display: inline-block;
             text-align: center;
         }
     }
+
+
     .post-content {
         h2, h3, h4, h5, h6 {
             max-width: 300px;
