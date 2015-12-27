@@ -6,6 +6,7 @@ nav.nav-links
         each value, key in theme.menu
             li.nav-list-item
                 - var re = /^(http|https):\/\/*/gi;
-                - var tar = re.test(value) ? "_blank" : "_self"
-                a.nav-list-link(class={active: is_current(value)} href=value target=tar)
+                - var tar = re.test(value) ? '_blank' : '_self';
+                - var is_link_active = is_current(value) || (value === '/' && path === 'index.html');
+                a.nav-list-link(class={active: is_link_active} href=value target=tar)
                     != key
