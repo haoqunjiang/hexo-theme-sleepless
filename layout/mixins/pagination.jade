@@ -1,19 +1,21 @@
-mixin home()
-    - var prev = page.prev_link
-    - var next = page.next_link
+mixin home_page_nav()
     .pagination
         if page.prev
-            a.prev(href=url_for(prev)) #{__('prev_page')}
-        else
-            a.prev 
+            a.prev(href=url_for(page.prev_link))
+                i.iconfont.icon-cc-left
+                | #{__('prev_page')}
         if page.next
-            a.next(href=url_for(next)) #{__('next_page')}
-        else
-            a.prev 
+            a.next(href=url_for(page.next_link))
+                | #{__('next_page')}
+                i.iconfont.icon-cc-right
 
-mixin post()
+mixin post_page_nav()
     .pagination
         if page.prev
-            a.prev(href=url_for(page.prev.path)) << #{page.prev.title}
+            a.prev(href=url_for(page.prev.path))
+                i.iconfont.icon-cc-left
+                | #{page.prev.title}
         if page.next
-            a.next(href=url_for(page.next.path)) #{page.next.title} >>
+            a.next(href=url_for(page.next.path))
+                | #{page.next.title}
+                i.iconfont.icon-cc-right
