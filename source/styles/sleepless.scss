@@ -8,11 +8,12 @@
 @import "base/_reboot";
 @import "base/_custom";
 
+@import "partial/_layout";
+
 @import "partial/_header";
 @import "partial/_pagination";
 
 @import "partial/_syntax";
-@import "partial/_responsive";
 
 @import "page/_posts";
 @import "page/_post";
