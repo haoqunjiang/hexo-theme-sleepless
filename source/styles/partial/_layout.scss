@@ -9,6 +9,9 @@ footer {
 @media screen and (min-width: 45rem) {
     nav, .container, footer {
         max-width: 45rem;
+    }
+
+    nav, footer {
         margin: 0 auto;
     }
 }
