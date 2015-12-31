@@ -1,0 +1,12 @@
+doctype
+html(lang=config.language)
+    head
+        include ../partials/head
+    body
+        header.site-header
+            include ../partials/nav
+        main#content
+            block content
+        footer
+            block footer
+        include ../partials/scripts

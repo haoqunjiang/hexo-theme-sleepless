@@ -1,9 +1,9 @@
-extends partial/layout
+extends layouts/base
 
-block container
+block content
     include mixins/post
     +posts()
 
-block pagination
+block footer
     include mixins/pagination
     +home_page_nav()

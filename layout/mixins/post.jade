@@ -1,27 +1,34 @@
-mixin postInfo(item)
-    .post-meta
-        .post-time
-            != full_date(item.date, 'll')
+mixin postHeader(item, isListItem)
+    header.post-header
+        unless isListItem
+            h1.post-title
+                a.post-title-link(href= url_for(item.path))
+                    != item.title
+        else
+            h2.post-title
+                a.post-title-link(href= url_for(item.path))
+                    != item.title
+                    
+        small.post-meta
+            span.post-time !{date(item.date, 'YYYY-MM-DD')}
+
+
+mixin post(item)
+    .post
+        article.post-block
+            +postHeader(item)
+            .post-content
+                != item.content
 
 mixin posts()
     ul.home.post-list
         - page.posts.each(function(item, index) {
             li.post-list-item
                 article.post-block
-                    h2.post-title
-                        a.post-title-link(href= url_for(item.path))
-                            != item.title
-                    +postInfo( item )
+                    +postHeader(item, true)
+                        
                     .post-content
                         != item.excerpt
+                        
                     a.read-more(href=item.path) ... #{__('continue')}
         - })
-
-mixin post(item)
-    .post
-        article.post-block
-            h1.post-title
-                != item.title
-            +postInfo(item)
-            .post-content
-                != item.content
