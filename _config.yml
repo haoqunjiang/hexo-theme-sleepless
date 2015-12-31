@@ -35,3 +35,6 @@ google_fonts_mirror: fonts.lug.ustc.edu.cn
 # https://quericy.me/blog/788
 # https://imququ.com/post/duoshuo-and-https.html
 duoshuo_embed_url:
+
+archive_generator:
+    per_page: 0
