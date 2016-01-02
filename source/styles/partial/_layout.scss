@@ -1,4 +1,4 @@
-.container {
+#content {
     margin: 0 auto 4rem;
 }
 
@@ -7,7 +7,7 @@ footer {
 }
 
 @media screen and (min-width: 45rem) {
-    nav, .container, footer {
+    nav, #content, footer {
         max-width: 45rem;
     }
 

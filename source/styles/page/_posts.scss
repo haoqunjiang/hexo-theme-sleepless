@@ -1,26 +1,23 @@
-.home.post-list {
-    margin: 2em 0;
-
-    .post-title-link {
-        color: $body-color;
-        text-decoration: none;
-    }
-
+.post-list {
     .post-list-item {
-        padding: 1em 0 2em;
-        border-bottom: 1px solid #ddd;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid $border-color;
+        margin-bottom: 2rem;
     }
+
     .post-content{
         h2, h3, h4, h5, h6 {
             &:before {
                 content: '';
             }
         }
+
         & > ul {
             list-style: initial;
         }
     }
+
     .read-more {
-        color: #42b983;
+        color: $theme-primary;
     }
 }
