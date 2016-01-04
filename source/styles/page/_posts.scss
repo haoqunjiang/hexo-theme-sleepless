@@ -1,11 +1,15 @@
 .post-list {
+    margin-top: -2rem;    // to compensate the padding-top of the first item
+    padding: 0;
+
     .post-list-item {
-        padding-bottom: 2rem;
+        padding: 2rem 1rem;
         border-bottom: 1px solid $border-color;
-        margin-bottom: 2rem;
     }
 
-    .post-content{
+    .post-content {
+        margin-bottom: 1rem;
+
         h2, h3, h4, h5, h6 {
             &:before {
                 content: '';

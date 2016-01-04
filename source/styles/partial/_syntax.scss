@@ -2,18 +2,19 @@
 
 code,
 pre {
-    font-size: 0.85em;
-    background-color: #f8f8f8;
+    font-size: 0.85rem;
+    background-color: $hl-bg;
 }
 
 .highlight {
     position: relative;
-    margin: 1em 0;
+    margin: 1rem 0;
     border-radius: 2px;
-    line-height: 1.5em;
-    background-color: #f8f8f8;
+    line-height: 1.5rem;
+    background-color: $hl-bg;
     overflow-x: auto;
     overflow-y: hidden;
+
     table, tr, td {
         width: auto;
         border-collapse: collapse;
@@ -24,18 +25,19 @@ pre {
     .gutter pre {
         @extend %line-numbers;
         text-align: right;
-        padding: 1.4rem 1rem;
+        padding: 1rem;
         margin: 0;
     }
 
     .code pre {
-        padding: 1.4rem 1rem 1.4rem 0;
+        padding: 1rem 1rem 1rem 0;
         margin: 0;
     }
 }
 
 pre {
-    color: #525252;
+    color: $hl-primary;
+
     .function .keyword,
     .constant {
        color: #0092db;
@@ -60,13 +62,13 @@ pre {
         color: #2973b7;
     }
     .class .title {
-        color: #fff;
+        color: white;
     }
     .symbol,
     .symbol .string,
     .value,
     .regexp {
-        color: #42b983;
+        color: $theme-primary;
     }
     .title {
         color: #83b917;
@@ -95,7 +97,7 @@ pre {
     .apache .cbracket,
     .tex .command,
     .prompt {
-        color: #42b983;
+        color: $theme-primary;
     }
     .comment,
     .java .annotation,
