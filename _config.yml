@@ -12,7 +12,7 @@ logo: /favicon.png
 disqus:
 duoshuo:
 
-# google-analytics:
+# google-analytics tracking id:
 ga:
 # baidu-analytics:
 ba:
@@ -38,3 +38,6 @@ duoshuo_embed_url:
 
 archive_generator:
     per_page: 0
+
+enforce_ssl_on_domains:
+    - 'sodatea.github.io'
