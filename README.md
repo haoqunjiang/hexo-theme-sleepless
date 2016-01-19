@@ -1,4 +1,4 @@
-![screenshot](https://cloud.githubusercontent.com/assets/3277634/12009566/4c2cd29a-acb8-11e5-9ddd-a66c6a105208.png)
+![screenshot](https://cloud.githubusercontent.com/assets/3277634/12420377/33f53180-bef7-11e5-8e1e-9f441efd9aff.png)
 
 ## Install
 
@@ -25,6 +25,8 @@ theme: sleepless
 cd themes/sleepless
 git pull
 ```
+
+## Front-matter extensions
 
 ## Custom Blocks
 
