@@ -9,7 +9,7 @@ mixin postHeader(item, isListItem)
                 a.post-title-link(href= url_for(item.path))
                     != item.title
                     
-        small.post-meta
+        span.post-meta
             span.post-time !{date(item.date, 'YYYY-MM-DD')}
 
 
