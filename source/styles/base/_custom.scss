@@ -11,6 +11,13 @@ h3,
 h4,
 h5 {
     font-family: $font-family-headline;
+	margin-top: 1rem;
+
+	& + p,
+	& + ul,
+	& + ol {
+		margin-top: .5rem;
+	}
 }
 
 hr {
