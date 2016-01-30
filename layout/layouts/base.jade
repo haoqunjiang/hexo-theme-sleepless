@@ -4,9 +4,12 @@ html(lang=config.language)
         include ../partials/head
     body
         header.site-header
-            include ../partials/nav
+            div.container
+                include ../partials/nav
         main#content
-            block content
+            div.container
+                block content
         footer
-            block footer
+            div.container
+                block footer
         include ../partials/scripts

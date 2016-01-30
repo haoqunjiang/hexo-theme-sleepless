@@ -1,14 +1,11 @@
 @media screen and (min-width: 45rem) {
-    nav, #content, footer {
+    .container {
         max-width: 42rem;
-    }
-
-    nav, footer {
         margin: 0 auto;
     }
 
     #content {
-        margin: 0 auto 4rem;
+        margin-bottom: 4rem;
     }
 }
 
