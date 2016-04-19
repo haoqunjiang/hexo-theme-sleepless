@@ -27,12 +27,15 @@ $table-bg             : transparent !default;
 $table-cell-padding   : 0.75rem !default;
 
 
-
 $border-color: #ddd;
 
 
 $hl-bg: #f7f8fa;
 $hl-primary: #67717d;
 
+
+$height-header: 80px;
+$zindex-mask: 1000;
+$zindex-modal: 1100;
 
 $code-signs           : ("html", "javascript", "js", "json", "bash", "css", "scss", "less", "python", "ruby", "java", "xml");

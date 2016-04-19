@@ -1,8 +1,13 @@
+p {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
 code,
 kbd,
 pre,
 samp {
-	font-family: $font-family-monospace;
+    font-family: $font-family-monospace;
 }
 
 h1,
@@ -11,13 +16,13 @@ h3,
 h4,
 h5 {
     font-family: $font-family-headline;
-	margin-top: 1rem;
+    margin-top: 1rem;
 
-	& + p,
-	& + ul,
-	& + ol {
-		margin-top: .5rem;
-	}
+    & + p,
+    & + ul,
+    & + ol {
+        margin-top: .5rem;
+    }
 }
 
 hr {
@@ -54,8 +59,8 @@ table {
 ul.nav,
 ul.post-list {
     list-style-type: none;
-	margin-bottom: 0;
-	padding: 0
+    margin-bottom: 0;
+    padding: 0
 }
 
 a.nav-list-link.active,
@@ -65,5 +70,5 @@ a.post-title-link:hover {
 }
 
 .iconfont {
-	font-size: 1rem;
+    font-size: 1rem;
 }
