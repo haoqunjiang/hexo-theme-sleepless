@@ -24,10 +24,13 @@ node_sass:
 disable_mathjax: false
 
 # For Chinese users, it's necessary to use a mirror for google fonts
-# There're two recommended mirrors which support SSL:
-# 1. USTC: fonts.lug.ustc.edu.cn
-# 2. css.net: cdn.css.net/fonts/
-google_fonts_mirror: fonts.lug.ustc.edu.cn
+# There're 3 recommended mirrors which support SSL:
+# 1. USTC: https://fonts.lug.ustc.edu.cn
+# 2. css.net: https://cdn.css.net/fonts/
+# 3. Baomitu: https://cdn.baomitu.com/index/fonts
+#
+# Update: Google Fonts has been unblocked in China since 2016
+# google_fonts_mirror: fonts.lug.ustc.edu.cn
 
 # It's recommended to use reverse proxy for duoshuo avatars, so as to support ssl.
 # In that way, you need to serve a modified version of the embed.js file.
