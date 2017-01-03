@@ -1,6 +1,6 @@
 {
   "name": "hexo-theme-sleepless",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A fork of the 'apollo' hexo theme",
   "main": "index.js",
   "scripts": {
@@ -22,9 +22,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pinggod/hexo-theme-sleepless/issues"
+    "url": "https://github.com/sodatea/hexo-theme-sleepless/issues"
   },
-  "homepage": "https://github.com/pinggod/hexo-theme-sleepless#readme",
+  "homepage": "https://github.com/sodatea/hexo-theme-sleepless#readme",
   "devDependencies": {
     "babel-core": "^6.2.1",
     "babel-preset-es2015": "^6.1.18",
