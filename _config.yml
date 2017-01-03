@@ -30,7 +30,7 @@ disable_mathjax: false
 # 3. Baomitu: https://cdn.baomitu.com/index/fonts
 #
 # Update: Google Fonts has been unblocked in China since 2016
-# google_fonts_mirror: fonts.lug.ustc.edu.cn
+google_fonts_mirror:
 
 # It's recommended to use reverse proxy for duoshuo avatars, so as to support ssl.
 # In that way, you need to serve a modified version of the embed.js file.
